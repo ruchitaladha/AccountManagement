@@ -56,6 +56,7 @@ public class AccountController {
         currentAccount.setAccountNo(account.getAccountNo());
         currentAccount.setType(account.getType());
     	accountService.updateAccount(currentAccount);
+    	System.out.println("Updating account with id "+id);
         return new ResponseEntity<Account>(currentAccount, HttpStatus.OK);
     	
     }
