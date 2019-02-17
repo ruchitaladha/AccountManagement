@@ -1,0 +1,10 @@
+com\ladha\demo\dao\AccountDaoImpl.class
+com\ladha\demo\service\AccountServiceImpl.class
+com\ladha\demo\configuration\MyWebAppInitializer.class
+com\ladha\demo\dao\AccountDao.class
+com\ladha\demo\controller\IndexController.class
+com\ladha\demo\configuration\HibernateConfiguration.class
+com\ladha\demo\controller\AccountController.class
+com\ladha\demo\model\Account.class
+com\ladha\demo\service\AccountService.class
+com\ladha\demo\configuration\WebConfiguration.class
