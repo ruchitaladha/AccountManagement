@@ -22,8 +22,7 @@ public class AccountDaoImpl implements AccountDao{
 	@Override
 	public Account findById(long id) {
 		Session session = this.sessionFactory.getCurrentSession();
-		Account account = (Account) session.get(Account.class, id);
-		return account;
+		return (Account) session.get(Account.class, id);
 	}
 
 	@Override
@@ -60,8 +59,7 @@ public class AccountDaoImpl implements AccountDao{
 	@Override
 	public List<Account> findAllAccounts() {
 		Session session = this.sessionFactory.getCurrentSession();
-		List<Account> accounts = session.createQuery("from Account").list();
-		return accounts;
+		return session.createQuery("from Account").list();
 	}
 
 	@Override
